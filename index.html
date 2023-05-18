@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>technosound computers</title>
+    <link href="images/apple icon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+ <style>
+  /* #nav{
+    position: fixed;
+    top: 0;
+  } */
+  html{
+    scroll-behavior: smooth;
+  }
+  /* #navbar{
+    position: fixed;
+    top: 0;
+  } */
+ </style>
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" id="navbar">
+        <div class="container-fluid">
+            <nav class="navbar bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="data:image/png;base64,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" alt="" width="31" height="25">
+                  </a>
+                </div>
+              </nav>
+          <a class="navbar-brand" href="#">technosound</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" id="top">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" aria-current="page">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" aria-current="page">Contact</a>
+              </li>
+            </ul>
+           <a href=""><button type="button" target= "_self" class="btn btn-dark">login</button>
+           </a> 
+           <a href="" target="_self"><button type="button" target= "_self" class="btn btn-dark ms-3">Inquiry</button></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider -->
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/apple.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="images/hp computer.jpg" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="images/dell gaming laptop.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+    
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<hr>
+<br>
+
+
+      <!-- home section -->
+      <h1>
+        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" id="home">
+           <h1 class="float-end"> Welcome to <strong>Technosound computers.</strong>
+          </button></h1>
+        </h1>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 300px;">
+           <h4> The best place to buy your dream systems.</h4>
+          </div>
+        </div>
+      </div>
+
+          <div class="alert alert-dark" role="alert" id="about">
+            <h1 style="text-align: center; font-size:35px">About</h1>
+          </div>
+          <br><br>
+
+          <!-- about section -->
+      <div class="about-section"  >
+        <div class="alert alert-success bg-light" role="alert">
+            <h4 class="alert-heading" style="font-size: 35px; color:black;text-align: center;">About <strong>Technosound Computers.</strong></h4>
+            <p><div class="alert alert-success bg-light" role="alert">
+  <!-- <h4 class="alert-heading">Well done!</h4> -->
+  <p style="text-align: justify;font-size: 25px;color: black;background-color: white;">Technosound Computers Inc. is an American multinational technology company that specializes in consumer electronics, software and online services headquartered in Cupertino, California, United States. Technosound Computers is the largest technology company by revenue (totaling US$365.8 billion in 2021) and as of June 2022, it is the world's biggest company by market capitalization, the fourth-largest personal computer vendor by unit sales and second-largest mobile phone manufacturer. <br>It is one of the Big Five American information technology companies, alongside Alphabet, Amazon, Meta, and Microsoft.</p>
+          </div>
+      </div>
+      <br>
+
+      <!-- products -->
+
+      <div class="alert alert-dark" role="alert" id="products">
+        <h1 style="text-align: center; font-size:35px">Products</h1>
+      </div>
+      <br><br>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <a href="https://rukminim1.flixcart.com/image/416/416/l4hcx3k0/computer/m/x/g/macbook-pro-thin-and-light-laptop-apple-original-imagfdeukyhqk9vy.jpeg?q=70" class="card-img-top"><img src="https://rukminim1.flixcart.com/image/416/416/l4hcx3k0/computer/m/x/g/macbook-pro-thin-and-light-laptop-apple-original-imagfdeukyhqk9vy.jpeg?q=70" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+            <h5 class="card-title">APPLE 2022 MacBook Pro M2 - (8 GB/256 GB SSD/Mac OS Monterey) MNEH3HN/A  (13.3 Inch, Space Grey, 1.38 Kg)</h5>
+                <a href="https://rukminim1.flixcart.com/image/416/416/l4hcx3k0/computer/m/x/g/macbook-pro-thin-and-light-laptop-apple-original-imagfdeukyhqk9vy.jpeg?q=70"><button type="button" class="btn btn-outline-dark">Buy</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61TmHUs-T0S._AC_UY218_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dell 14 (2021) Ryzen 5-5500U, 8Gb, 512Gb Ssd, Windows 11 + Ms Office'21, AMD Vega Graphics, 14 Inches (35.56 Cms) Fhd Display, Titan Grey Color, Fpr + Backlit Kb (Vostro 5415, D552205Win9S) </h5>
+            
+               <a href="https://www.flipkart.com/dell-inspiron-ryzen-5-hexa-core-r5-5500u-8-gb-512-gb-ssd-windows-11-home-7415-2-1-laptop/p/itm6af1d86554b60?pid=COMG9NYDZKNVGGBF&lid=LSTCOMG9NYDZKNVGGBFCWQEGD&marketplace=FLIPKART&q=Dell+14+%282021%29+Ryzen+5-5500U%2C+8Gb%2C+512Gb+Ssd%2C+Windows+11+%2B+Ms+Office21%2C+AMD+Vega+Graphics%2C+14+Inches+%2835.56+Cms%29+Fhd+Display%2C+Titan+Grey+Color%2C+Fpr+%2B+Backlit+Kb+%28Vostro+5415%2C+D552205Win9S%29+&store=search.flipkart.com%2F6bo%2Fb5g&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=72062336-bc8e-4b1d-8408-b5fb72b7d610.COMG9NYDZKNVGGBF.SEARCH&ppt=pp&ppn=pp&ssid=gqevxfbb9c0000001660192559829&qH=2ab8365c1bb9182f"> <button type="button" class="btn btn-outline-dark">Buy</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71EjVxkxwNL._AC_UY218_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS Vivobook 16X (2022), 16-inch (40.64 cms) WUXGA, AMD Ryzen 5 5600H, Thin and Light Laptop (8GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Quiet Blue/1.8 kg), M1603QA-MB502WS </h5>
+
+              <a href="https://www.flipkart.com/asus-vivobook-16x-ryzen-7-octa-core-5800h-16-gb-512-gb-ssd-windows-11-home-m1603qa-mb711ws-thin-light-laptop/p/itm52aedf119651a?pid=COMGEFDUQCBBAYCY&lid=LSTCOMGEFDUQCBBAYCY9QOB4S&marketplace=FLIPKART&q=ASUS+Vivobook+16X+%282022%29%2C+16-inch+%2840.64+cms%29+WUXGA%2C+AMD+Ryzen+5+5600H%2C+Thin+and+Light+Laptop+%288GB%2F512GB+SSD%2FIntegrated+Graphics%2FWindows+11%2FOffice+2021%2FQuiet+Blue%2F1.8+kg%29%2C+M1603QA-MB502WS+&store=search.flipkart.com%2F6bo%2Fb5g&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=af0d7e1e-ebb8-4277-8207-086dd80f931d.COMGEFDUQCBBAYCY.SEARCH&ppt=sp&ppn=sp&ssid=h6gxszinkw0000001660192611232&qH=9887148b06e33794"><button type="button" class="btn btn-outline-dark">Buy</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="https://rukminim1.flixcart.com/image/416/416/kuvkcy80/computer/x/s/4/na-gaming-laptop-acer-original-imag7whp2f8fgpaz.jpeg?q=70" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ASUS Vivobook 16X (2022), 16-inch (40.64 cms) WUXGA, AMD Ryzen 5 5600H, Thin and Light Laptop (8GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Quiet Blue/1.8 kg), M1603QA-MB502WS </h5>
+                <a href="https://rukminim1.flixcart.com/image/416/416/kuvkcy80/computer/x/s/4/na-gaming-laptop-acer-original-imag7whp2f8fgpaz.jpeg?q=70"><button type="button" class="btn btn-outline-dark">Buy</button></a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <a href="https://www.flipkart.com/search?q=gaming+laptop&sid=6bo%2Cb5g&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=gaming+laptop%7CLaptops&requestId=7494aa18-159e-4757-a9c7-e31b9614627b&as-backfill=on"> <a href="products.html"><button type="button" target= "_self" class="btn btn-primary">See More</button></a>
+  <!-- contact section  -->
+      
+  <div class="alert alert-dark" role="alert" id="contact" style="clear: both;width: 100%;">
+    <h1 style="text-align: center; font-size:35px">Contact</h1>
+  </div>
+  <br>
+
+  <div class="alert alert-light" style="margin-left: 10px;">
+    <div class="contact-center" >
+   <a href="#"><img src="images/fb.jpg" alt="" width="50px" height="50px"  ></a>
+
+   <a href="#"><img src="images/linkedin.png" alt="" width="50px" height="50px" ></a>
+
+   <a href="#"><img src="images/insta.jpg" alt=""width="50px" height="50px" ></a>
+
+  <a href="#"> <img src="images/twitter.png" alt="" width="50px" height="50px" ></a>
+</div>
+  </div>
+</div>
+
+      <!-- footer section -->
+      <div class="footer-section" style="width: 100%">
+        <div class="card bg-light">
+            <div class="card-header" style="font-size: 30px;text-align: center;font-weight: bold;">
+              Technosound computers.
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p></p>
+                <footer class="blockquote-footer" style="font-size: 25px;text-align: center;">@all copyrights reserved.<cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+      </div>
+
+    
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>
